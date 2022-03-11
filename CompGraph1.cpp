@@ -96,7 +96,7 @@ LRESULT APIENTRY WndProc(_In_ HWND hWnd, _In_ UINT Msg, _In_ WPARAM wParam, _In_
 			from = 0;
 			to = 2;
 			break;
-			// кручу верчу
+			// вращение
 		case 'q':
 		case 'Q':
 			for (size_t i = from; i < to; i++) {
